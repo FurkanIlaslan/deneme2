@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Tasarım</title>
+
+    <!-- ! Internal CSS -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        .navbar{
+            height: 50px;
+            background-color: powderblue;
+            padding: 15px;
+            /* display: flex;
+            justify-content: center; */
+        }
+
+        /* .navbar-elemani{
+            margin: auto;
+            width: 30%;
+        } */
+
+        .navbar a{
+            color: white;
+            padding-inline: 20px;
+        }
+
+        .content{
+            padding: 20px;
+        }
+
+        .content .foto{
+            width: 25%;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .content p{
+            text-align: justify;
+        }
+
+
+        /* Responsive Tasarım Bölümü */
+        @media screen and (max-width:900px){
+            .content .foto{
+                width: 50%;
+                border: 2px solid orange;
+            }
+        }
+
+        @media screen and (max-width:500px){
+            .content .foto{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .content p{
+                font-size: 25px;
+            }
+
+            .navbar{
+                height: 100px;
+                background-color: pink;
+            }
+
+            .navbar a{
+                display: block;
+                width: 50%;
+                color: orange;
+                text-align: center;
+                margin: 5px 0px;
+                border-bottom: 2px solid white;
+            }
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-elemani">
+                <a href="">Anasayfa</a>
+                <a href="">Hakkımızda</a>
+                <a href="">İletişim</a>
+            </div>
+        </div>
+        <div class="content">
+            <img class="foto" src="https://arabam-blog.mncdn.com/wp-content/uploads/2022/12/best-luxury-car-brands-bugatti-2022-luxe-digital.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quas magnam vero optio ducimus quidem debitis praesentium veniam expedita, exercitationem fuga ipsam impedit enim excepturi sed incidunt quisquam soluta, ipsum deserunt repellat at! Minus minima fugiat, nulla quisquam possimus nihil. Ipsum assumenda maiores natus ea. Placeat, dolorum similique natus, nostrum rerum accusamus veritatis unde veniam commodi rem sint et consequuntur quidem voluptatem a iure! Neque atque nisi amet saepe eius dolores, sapiente magnam, esse possimus et ducimus impedit consequuntur exercitationem deleniti delectus aliquid tempora quia? Culpa debitis reiciendis dolore blanditiis in similique, consequuntur iste voluptates laudantium maiores ab eligendi? Eius, voluptates ad officia alias atque quaerat eveniet reiciendis sed dolor commodi debitis praesentium vitae temporibus deserunt voluptatibus iusto quas nam quos cum eos, tempore totam? Inventore perspiciatis quis modi fuga labore vitae ipsa ab velit a ut, nobis ea tempore nulla dolore, assumenda repudiandae sint adipisci. Fugiat excepturi ipsum vitae iusto ducimus ab asperiores nihil exercitationem totam odio deleniti nulla non, molestiae unde, earum praesentium sit commodi! Sit at nemo accusantium sint exercitationem, quod corrupti dolor necessitatibus veniam ab, consectetur assumenda voluptatibus! Aspernatur odit debitis doloremque id, ut commodi fuga! Tempore eveniet maiores perspiciatis tempora quaerat. Fugiat accusantium nihil soluta quos autem, officia neque minus quibusdam inventore debitis aperiam exercitationem ab, dignissimos unde consectetur? Fuga dolores qui velit, a possimus necessitatibus perspiciatis rerum iste magni! Labore odio harum repudiandae minus non, sint accusantium dolor officia laudantium voluptatem placeat iure dicta ea beatae ab odit illo officiis impedit quis consequuntur aliquam amet exercitationem! Beatae atque rerum facilis quaerat, optio consectetur eum! Quis saepe asperiores eaque reiciendis accusamus beatae facere at cumque voluptatibus, ullam provident, officia molestiae architecto iusto natus maxime corporis sapiente veniam alias odit aliquid nobis? Illum at nisi facilis ipsam corrupti tempore eius ad culpa libero, reiciendis labore cumque odio quibusdam alias ut. Dicta magni, quae debitis tempora voluptatem architecto, facere sunt eaque corporis iure, vitae dolorum illum amet similique deserunt tempore aut delectus provident? Reprehenderit porro officia eum exercitationem aliquid, eius autem dolores ipsum ducimus eaque, magni praesentium odio, reiciendis beatae consequatur adipisci obcaecati repellendus soluta doloremque quidem facere dolore error et. Dolorum consequuntur quaerat similique magnam quod saepe aliquid voluptatibus quisquam eaque architecto alias et, neque molestiae pariatur rem, quos ipsum. Quasi exercitationem id explicabo, expedita cum voluptate incidunt aliquam earum inventore dolores quisquam aperiam iure alias temporibus nihil consequuntur tenetur, voluptatum quia, cupiditate eveniet! Sint nam minima, in quo sequi ad error ipsum totam quae quaerat quam quibusdam, repudiandae tempora sapiente facilis eos voluptatum autem numquam sunt, temporibus officia aspernatur ea rerum! Minus dicta tempora eum delectus aliquid maiores tenetur voluptate vero ad fugit corrupti atque porro enim veritatis, id, sed ullam vel at facilis voluptatum molestiae perferendis adipisci. Molestiae cupiditate perferendis numquam magni aliquid possimus non nam, ducimus nobis laborum eos earum tempore est quo delectus dolorem veniam harum quam blanditiis inventore asperiores rem! Labore est architecto nobis ratione? Voluptatem praesentium, ullam neque aliquid beatae nemo nam rem non quisquam unde, tempore adipisci consectetur illum.</p>
+        </div>
+    </div>
+</body>
+</html>
